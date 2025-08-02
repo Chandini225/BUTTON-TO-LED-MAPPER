@@ -13,6 +13,7 @@ Short/Long Press Support: Different actions for brief and extended button presse
 Debounced Inputs: Reliable button detection with software debouncing
 Scalable Architecture: Easy to add new buttons and functions
 Professional Patterns: Industry-standard approach used in commercial products
+
 🛠️ Hardware Requirements
 Arduino Uno or compatible board
 3 Push Buttons
@@ -21,9 +22,7 @@ Arduino Uno or compatible board
 10kΩ Resistors (3) for button pull-up
 Breadboard and Jumper Wires
 
-profile
-Qwen3-Coder
-5:29 pm
+
 🎮 Smart Button Handler with Function Pointer Mapping
 An advanced button handling system that demonstrates professional embedded systems design patterns using struct-based mapping tables and function pointers for scalable, maintainable input handling.
 
@@ -37,6 +36,7 @@ Short/Long Press Support: Different actions for brief and extended button presse
 Debounced Inputs: Reliable button detection with software debouncing
 Scalable Architecture: Easy to add new buttons and functions
 Professional Patterns: Industry-standard approach used in commercial products
+
 🛠️ Hardware Requirements
 Arduino Uno or compatible board
 3 Push Buttons
@@ -44,17 +44,18 @@ Arduino Uno or compatible board
 220Ω Resistors (3) for LED current limiting
 10kΩ Resistors (3) for button pull-up
 Breadboard and Jumper Wires
+
 🔧 Hardware Connections
 Button Connections (Active Low with Pull-up)
-
 BUTTON 1: Digital Pin 2 ↔ GND (with 10kΩ pull-up to 5V)
 BUTTON 2: Digital Pin 3 ↔ GND (with 10kΩ pull-up to 5V)  
 BUTTON 3: Digital Pin 4 ↔ GND (with 10kΩ pull-up to 5V)
-LED Connections
 
+LED Connections
 LED 1: Digital Pin 8 → Anode (with 220Ω resistor to GND)
 LED 2: Digital Pin 9 → Anode (with 220Ω resistor to GND)
 LED 3: Digital Pin 10 → Anode (with 220Ω resistor to GND)
+
 🎯 Button Functions
 Button 1 (Pin 2)
 Short Press (<1 second): Toggle LED1 on/off
